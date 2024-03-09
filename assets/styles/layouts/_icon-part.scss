@@ -6,12 +6,20 @@
     margin: 0 auto;
     display: flex;
     padding: 100px 0 80px;
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+    }
 
     .list-icon-part {
       width: 23%;
       margin: 0 auto;
       min-height: 420px;
       position: relative;
+
+      @media screen and (max-width: 800px) {
+        width: 50%;
+        margin-bottom: 40px;
+      }
       img {
         width: 100%;
       }

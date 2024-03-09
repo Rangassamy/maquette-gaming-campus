@@ -13,10 +13,17 @@ header {
       text-transform: uppercase;
       color: $white1;
       margin: 40px 0;
+
+      @media screen and (max-width: 580px) {
+        font-size: 1.5rem;
+      }
+      @media screen and (max-width: 420px) {
+        font-size: 1rem;
+      }
     }
 
     img {
-      width: 100%;
+      width: 90%;
       max-width: 750px;
     }
     button {
@@ -30,7 +37,15 @@ header {
       font-weight: 700;
       letter-spacing: 4px;
       transition: 0.2s;
-
+      @media screen and (max-width: 800px) {
+        font-size: 0.8rem;
+      }
+      @media screen and (max-width: 600px) {
+        font-size: 0.6rem;
+      }
+      @media screen and (max-width: 400px) {
+        font-size: 0.5rem;
+      }
       &:hover {
         background: $white1;
         color: $black1;

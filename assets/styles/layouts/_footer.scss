@@ -16,5 +16,12 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    @media screen and (max-width: 800px) {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      li {
+        margin: 20px 30px;
+      }
+    }
   }
 }

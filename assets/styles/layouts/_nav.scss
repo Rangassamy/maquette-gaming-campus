@@ -1,8 +1,10 @@
 nav {
-  width: 100%;
+  width: 90%;
   max-width: 1300px;
   margin: 0 auto;
-
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
   ul {
     display: flex;
     align-items: center;
@@ -25,7 +27,14 @@ nav {
       font-size: 1.1rem;
       font-weight: 700;
       position: relative;
-
+      @media screen and (max-width: 1400px) {
+        font-size: 0.9rem;
+        height: 60px;
+      }
+      @media screen and (max-width: 1000px) {
+        font-size: 0.7rem;
+        height: 40px;
+      }
       &:nth-child(1) {
         color: $purple1;
         &:before {

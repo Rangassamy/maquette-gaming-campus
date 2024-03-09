@@ -21,9 +21,14 @@ body {
 }
 
 nav {
-  width: 100%;
+  width: 90%;
   max-width: 1300px;
   margin: 0 auto;
+}
+@media screen and (max-width: 800px) {
+  nav {
+    display: none;
+  }
 }
 nav ul {
   display: -webkit-box;
@@ -58,6 +63,18 @@ nav ul li {
   font-size: 1.1rem;
   font-weight: 700;
   position: relative;
+}
+@media screen and (max-width: 1400px) {
+  nav ul li {
+    font-size: 0.9rem;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  nav ul li {
+    font-size: 0.7rem;
+    height: 40px;
+  }
 }
 nav ul li:nth-child(1) {
   color: rgb(97, 12, 97);
@@ -110,8 +127,18 @@ header .main-header h1 {
   color: whitesmoke;
   margin: 40px 0;
 }
+@media screen and (max-width: 580px) {
+  header .main-header h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  header .main-header h1 {
+    font-size: 1rem;
+  }
+}
 header .main-header img {
-  width: 100%;
+  width: 90%;
   max-width: 750px;
 }
 header .main-header button {
@@ -126,6 +153,21 @@ header .main-header button {
   letter-spacing: 4px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+}
+@media screen and (max-width: 800px) {
+  header .main-header button {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  header .main-header button {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  header .main-header button {
+    font-size: 0.5rem;
+  }
 }
 header .main-header button:hover {
   background: whitesmoke;
@@ -147,6 +189,11 @@ header .main-header button i {
   font-family: Mont, sans-serif;
   font-weight: 700;
 }
+@media screen and (max-width: 800px) {
+  .header-text p {
+    font-size: 1rem;
+  }
+}
 
 .icon-part {
   background: rgb(24, 23, 23);
@@ -160,11 +207,25 @@ header .main-header button i {
   display: flex;
   padding: 100px 0 80px;
 }
+@media screen and (max-width: 800px) {
+  .icon-part .icon-part-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .icon-part .icon-part-container .list-icon-part {
   width: 23%;
   margin: 0 auto;
   min-height: 420px;
   position: relative;
+}
+@media screen and (max-width: 800px) {
+  .icon-part .icon-part-container .list-icon-part {
+    width: 50%;
+    margin-bottom: 40px;
+  }
 }
 .icon-part .icon-part-container .list-icon-part img {
   width: 100%;
@@ -214,6 +275,11 @@ header .main-header button i {
   font-family: Mont, sans-serif;
   padding: 80px 0;
 }
+@media screen and (max-width: 800px) {
+  .news-part .header-news {
+    grid-template-columns: 1fr;
+  }
+}
 .news-part .header-news h2 {
   text-align: left;
   font-size: 1.7rem;
@@ -222,10 +288,21 @@ header .main-header button i {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 800px) {
+  .news-part .header-news h2 {
+    text-align: center;
+  }
+}
 .news-part .header-news p {
   text-align: left;
   font-weight: 600;
   font-size: 1rem;
+}
+@media screen and (max-width: 800px) {
+  .news-part .header-news p {
+    text-align: center;
+    margin-bottom: 40px;
+  }
 }
 .news-part .header-news button {
   background: none;
@@ -260,9 +337,24 @@ header .main-header button i {
   text-align: left;
   padding-bottom: 120px;
 }
+@media screen and (max-width: 800px) {
+  .news-part .main-news .main-news-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .news-part .main-news .main-news-container > div {
   width: 23%;
   position: relative;
+}
+@media screen and (max-width: 800px) {
+  .news-part .main-news .main-news-container > div {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
 }
 .news-part .main-news .main-news-container img {
   width: 100%;
@@ -291,6 +383,11 @@ header .main-header button i {
 .contact {
   background: white;
   padding: 80px 0 40px;
+}
+@media screen and (max-width: 800px) {
+  .contact {
+    display: none;
+  }
 }
 .contact .contact-container {
   width: 90%;
@@ -409,4 +506,15 @@ footer ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 auto;
+}
+@media screen and (max-width: 800px) {
+  footer ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer ul li {
+    margin: 20px 30px;
+  }
 }/*# sourceMappingURL=index.css.map */

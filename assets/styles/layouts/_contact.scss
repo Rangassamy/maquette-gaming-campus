@@ -1,6 +1,9 @@
 .contact {
   background: $white2;
   padding: 80px 0 40px;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
 
   .contact-container {
     width: 90%;
