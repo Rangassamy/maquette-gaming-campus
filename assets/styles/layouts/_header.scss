@@ -1,0 +1,43 @@
+header {
+  background: url(../img/bg.jpg) fixed center/cover;
+
+  .main-header {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 90px 0;
+
+    h1 {
+      font-family: $font1;
+      font-size: 2rem;
+      text-transform: uppercase;
+      color: $white1;
+      margin: 40px 0;
+    }
+
+    img {
+      width: 100%;
+      max-width: 750px;
+    }
+    button {
+      border: 1px solid $white1;
+      background: none;
+      padding: 20px 30px;
+      text-transform: uppercase;
+      font-family: $font1;
+      color: $white1;
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 4px;
+      transition: 0.2s;
+
+      &:hover {
+        background: $white1;
+        color: $black1;
+      }
+      i {
+        transform: translateX(5px);
+      }
+    }
+  }
+}

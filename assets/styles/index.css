@@ -82,4 +82,46 @@ nav ul li:hover::before {
   position: absolute;
   color: rgb(97, 12, 97);
   top: 0;
+}
+
+header {
+  background: url(../img/bg.jpg) fixed center/cover;
+}
+header .main-header {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+header .main-header h1 {
+  font-family: Mont, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: whitesmoke;
+  margin: 40px 0;
+}
+header .main-header img {
+  width: 100%;
+  max-width: 750px;
+}
+header .main-header button {
+  border: 1px solid whitesmoke;
+  background: none;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  font-family: Mont, sans-serif;
+  color: whitesmoke;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+header .main-header button:hover {
+  background: whitesmoke;
+  color: rgb(24, 23, 23);
+}
+header .main-header button i {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
 }/*# sourceMappingURL=index.css.map */
