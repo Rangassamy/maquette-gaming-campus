@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Mont";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Mont-italic;
+  src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+$font1: Mont, sans-serif;
+$font2: Mont-italic, serif;
+$black1: rgb(24, 23, 23);
+$black2: black;
+$white1: whitesmoke;
+$white2: white;
+$purple1: rgb(97, 12, 97);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  min-height: 100vh;
+  text-align: center;
+}
