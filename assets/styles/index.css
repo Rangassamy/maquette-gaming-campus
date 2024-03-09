@@ -136,4 +136,61 @@ header .main-header button i {
   font-size: 1.4rem;
   font-family: Mont, sans-serif;
   font-weight: 700;
+}
+
+.icon-part {
+  background: rgb(24, 23, 23);
+}
+.icon-part .icon-part-container {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0 80px;
+}
+.icon-part .icon-part-container .list-icon-part {
+  width: 23%;
+  margin: 0 auto;
+  min-height: 420px;
+  position: relative;
+}
+.icon-part .icon-part-container .list-icon-part img {
+  width: 100%;
+}
+.icon-part .icon-part-container .list-icon-part h3 {
+  text-transform: uppercase;
+  font-family: Mont, sans-serif;
+  color: whitesmoke;
+  margin: 40px 0 10px;
+}
+.icon-part .icon-part-container .list-icon-part p {
+  color: whitesmoke;
+  font-size: 1rem;
+  font-family: Mont, sans-serif;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+.icon-part .icon-part-container .list-icon-part button {
+  background: none;
+  height: 50px;
+  width: 200px;
+  border: 1px solid whitesmoke;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: whitesmoke;
+  font-family: Mont, sans-serif;
+  font-weight: 700;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.icon-part .icon-part-container .list-icon-part button:hover {
+  background: whitesmoke;
+  color: rgb(24, 23, 23);
 }/*# sourceMappingURL=index.css.map */
