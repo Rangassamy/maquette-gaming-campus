@@ -258,6 +258,7 @@ header .main-header button i {
           justify-content: space-between;
   font-family: Mont, sans-serif;
   text-align: left;
+  padding-bottom: 120px;
 }
 .news-part .main-news .main-news-container > div {
   width: 23%;
@@ -285,4 +286,104 @@ header .main-header button i {
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.contact {
+  background: white;
+  padding: 80px 0 40px;
+}
+.contact .contact-container {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.contact .contact-container .contact-list {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: Mont, sans-serif;
+  padding-bottom: 50px;
+  position: relative;
+}
+.contact .contact-container .contact-list:after {
+  content: "";
+  height: 1px;
+  width: 80%;
+  background: rgb(221, 218, 218);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.contact .contact-container .contact-list img {
+  width: 70%;
+}
+.contact .contact-container .contact-list h5 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.contact .contact-container .contact-list li a {
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 15px;
+  display: block;
+  text-decoration: none;
+}
+.contact .contact-container .contact-list p {
+  text-align: left;
+  font-weight: 700;
+  line-height: 25px;
+}
+.contact .contact-container .contact-list a {
+  text-align: left;
+  font-weight: 700;
+  display: block;
+  text-decoration: none;
+  margin: 20px 0;
+}
+.contact .contact-container .contact-list h6 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.contact .contact-container .contact-list .footer-logos {
+  text-align: left;
+}
+.contact .contact-container .contact-list .footer-logos i {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.contact .contact-container .contact-medias {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  font-family: Mont, sans-serif;
+  padding-top: 70px;
+}
+.contact .contact-container .contact-medias h3 {
+  text-align: left;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.contact .contact-container .contact-medias p {
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.contact .contact-container .contact-medias .medias-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }/*# sourceMappingURL=index.css.map */
