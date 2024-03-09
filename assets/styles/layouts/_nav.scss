@@ -17,7 +17,7 @@ nav {
 
     li {
       font-family: $font1;
-      min-height: 80px;
+      height: 80px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -49,6 +49,17 @@ nav {
           color: $purple1;
           top: 0;
         }
+      }
+    }
+    #language {
+      color: $black1;
+      background-color: $grey1;
+      border-radius: 20px;
+      height: 40px;
+      width: 8%;
+      &hover,
+      &::before {
+        background: none;
       }
     }
   }

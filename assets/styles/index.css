@@ -44,7 +44,7 @@ nav ul:hover li:not(:hover)::before {
 }
 nav ul li {
   font-family: Mont, sans-serif;
-  min-height: 80px;
+  height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,6 +82,16 @@ nav ul li:hover::before {
   position: absolute;
   color: rgb(97, 12, 97);
   top: 0;
+}
+nav ul #language {
+  color: rgb(24, 23, 23);
+  background-color: rgb(221, 218, 218);
+  border-radius: 20px;
+  height: 40px;
+  width: 8%;
+}
+nav ul #languagehover, nav ul #language::before {
+  background: none;
 }
 
 header {
