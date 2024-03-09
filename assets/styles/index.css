@@ -17,4 +17,69 @@
 body {
   min-height: 100vh;
   text-align: center;
+  background: whitesmoke;
+}
+
+nav {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav ul:hover li:not(:hover) {
+  color: rgb(24, 23, 23);
+}
+nav ul:hover li:not(:hover)::before {
+  background: none;
+}
+nav ul li {
+  font-family: Mont, sans-serif;
+  min-height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 700;
+  position: relative;
+}
+nav ul li:nth-child(1) {
+  color: rgb(97, 12, 97);
+}
+nav ul li:nth-child(1):before {
+  content: "";
+  height: 5px;
+  width: 100%;
+  background: rgb(97, 12, 97);
+  position: absolute;
+  color: rgb(97, 12, 97);
+  top: 0;
+}
+nav ul li:hover {
+  color: purple;
+}
+nav ul li:hover::before {
+  content: "";
+  height: 5px;
+  width: 100%;
+  background: rgb(97, 12, 97);
+  position: absolute;
+  color: rgb(97, 12, 97);
+  top: 0;
 }/*# sourceMappingURL=index.css.map */

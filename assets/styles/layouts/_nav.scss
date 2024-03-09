@@ -1,0 +1,55 @@
+nav {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &:hover li:not(:hover) {
+      color: $black1;
+      &::before {
+        background: none;
+      }
+    }
+
+    li {
+      font-family: $font1;
+      min-height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      font-size: 1.1rem;
+      font-weight: 700;
+      position: relative;
+
+      &:nth-child(1) {
+        color: $purple1;
+        &:before {
+          content: "";
+          height: 5px;
+          width: 100%;
+          background: $purple1;
+          position: absolute;
+          color: $purple1;
+          top: 0;
+        }
+      }
+      &:hover {
+        color: purple;
+        &::before {
+          content: "";
+          height: 5px;
+          width: 100%;
+          background: $purple1;
+          position: absolute;
+          color: $purple1;
+          top: 0;
+        }
+      }
+    }
+  }
+}

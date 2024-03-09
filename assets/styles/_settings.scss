@@ -9,7 +9,7 @@
 $font1: Mont, sans-serif;
 $font2: Mont-italic, serif;
 $black1: rgb(24, 23, 23);
-$black2: black;
+$black2: rgb(12, 12, 12);
 $white1: whitesmoke;
 $white2: white;
 $purple1: rgb(97, 12, 97);
@@ -23,4 +23,5 @@ $purple1: rgb(97, 12, 97);
 body {
   min-height: 100vh;
   text-align: center;
+  background: $white1;
 }
