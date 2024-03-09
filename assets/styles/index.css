@@ -124,4 +124,16 @@ header .main-header button:hover {
 header .main-header button i {
   -webkit-transform: translateX(5px);
           transform: translateX(5px);
+}
+
+.header-text {
+  padding: 40px 0;
+}
+.header-text p {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-family: Mont, sans-serif;
+  font-weight: 700;
 }/*# sourceMappingURL=index.css.map */
